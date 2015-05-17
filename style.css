@@ -1,0 +1,143 @@
+/*
+ * Theme Name: TA-Bootstrap
+ * Author: Robert Peake
+ * Author URI: http://www.robertpeake.com/
+ * Description: Child of The WP-Bootstrap theme.
+ * Template: wp-bootstrap
+ */
+@import url("../wp-bootstrap/style.css");
+
+body { font-family: "Arial", sans-serif; }
+.navbar .brand { color: #573a1f;}
+.brand img { max-width: 1em; vertical-align:text-top; }
+h1, h2, h3, h4, h5, h6, #menu-main, #inner-footer { font-family: "Arial", sans-serif; }
+h1, h2, h3, h4, h5, h6, li.current-menu-item { font-weight: bold; }
+h1, h2, h3 { line-height: 1.2em; }
+h3 { word-wrap: break-word; font-size: 22px; }
+.ta { font-family: "Utopia", "Gentium Book Basic", "Times New Roman", "Times", serif; color #573a1f; font-weight: bold}
+.post_content, .summary {font-family: "Utopia", "Gentium Book Basic", "Times New Roman", "Times", serif; font-weight: normal; color #573a1f;}
+.post_content p { line-height: 1.5em; font-size: 125%; }
+.post_content p.lead { font-size: 150%; }
+.hero-unit { color: #573a1f; background: url('http://www.robertpeake.com/files/2013/07/atlantic-1024-300.jpg');}
+.hero-unit, .video-banner, a.btn { font-family: "Arial", sans-serif; font-weight: normal; font-size: 140%;}
+.page-template-page-homepage-php .hero-unit {padding: 20px;}
+div.vcard {margin-bottom: 20px;}
+#main article {margin: 0; padding: 0;}
+#video, #event-banners {margin-bottom: 2em; margin-left: 0;}
+#event-banners img {margin-top: 2em; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; width: 100%; min-width: 280px; border: 1px solid #cccccc;}
+#event-banners img.first {margin-top: 0;}
+.video-banner{padding: 20px;}
+.video-banner .live {float: left; margin: 1em -4em 1em 1em; padding: 6px; border-radius: 6px; background: #a90329; background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); background: -o-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); background: -ms-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 );}
+textarea#comment, .form-actions, #sidebar1, .roundtan { background-color: #f9f7f3; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; padding: 0 6px;}
+hr { 
+    color: #573a1f; 
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(87,58,31,1) 0%, rgba(209,183,161,0.15) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(87,58,31,1)), color-stop(100%,rgba(209,183,161,0.15))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(87,58,31,1) 0%,rgba(209,183,161,0.15) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(87,58,31,1) 0%,rgba(209,183,161,0.15) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(87,58,31,1) 0%,rgba(209,183,161,0.15) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(87,58,31,1) 0%,rgba(209,183,161,0.15) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#573a1f', endColorstr='#26d1b7a1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    height: 1px;
+} 
+.alignright {float: right; margin-left: 1em; margin-bottom: 1em;}
+.alignleft {float: left; margin-right: 1em; margin-bottom: 1em;}
+h2 { font-size: 175%; }
+.row-fluid .span4 { padding: 2%; }
+.hero-unit, .roundgrey {
+    background: #f7f7f7;
+}
+.tint {background-color: #f7f7f7;}
+.span4 div.summary p { text-align: justify; }
+.hero-unit, .roundgrey { border: 1px solid #d3d3d3; }
+.transatlantic-banner {background: url('http://www.robertpeake.com/files/2013/07/atlantic-1024-300.jpg');}
+.frosted {background-color: rgba(255,255,255,0.3); -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;}
+img.rounded, img.rounded + div.thumbshader { -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
+img.halfsize {width: 50%;}
+div.thumbshader {height: 150px; position: absolute; width: 150px; background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 15%, rgba(0,0,0,0.15) 66%, rgba(0,0,0,0.66) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(15%,rgba(0,0,0,0)), color-stop(66%,rgba(0,0,0,0.15)), color-stop(100%,rgba(0,0,0,0.66))); background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 15%,rgba(0,0,0,0.15) 66%,rgba(0,0,0,0.66) 100%); background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 15%,rgba(0,0,0,0.15) 66%,rgba(0,0,0,0.66) 100%); background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 15%,rgba(0,0,0,0.15) 66%,rgba(0,0,0,0.66) 100%); background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 15%,rgba(0,0,0,0.15) 66%,rgba(0,0,0,0.66) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a8000000',GradientType=0 );}
+html.ie9 div.thumbshader { -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
+html.ie7 div.thumbshader, html.ie6 div.thumbshader {display: none;}
+.center { text-align: center; }
+.midcolumn { margin: 2em 0; }
+@media (max-width: 650px) {
+    .alignright, .alignleft {
+        float: none;
+    }
+    iframe.youtube-player {
+        max-width: 280px!important;
+    }
+    .video-banner iframe.youtube-player {
+        max-width: 240px!important;
+    }
+}
+.flip-clock-wrapper ul li {
+    line-height: normal;
+}
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner, .navbar-inner, .navbar .fill {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    background: url('http://www.transatlanticpoetry.com/files/2014/03/atlantic-1024-300.jpg');
+}
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    height: 22px;
+    background: transparent;
+    border-bottom: 6px solid #573a1f;
+    color: #573a1f;
+}
+.navbar .nav > li > a {
+    text-shadow: none;
+    font-weight: bold;
+    color: #573a1f;
+}
+#main p.meta {
+    font-style: normal;
+}
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    margin: 0 auto;
+    max-height: 300px;
+}
+.roundblack * {color: #f7f7f7;}
+.carousel-inner>.active, .roundblack  {
+    background: #573a1f; /* Old browsers */
+    background: -moz-linear-gradient(top,  #000000 0%, #45484d 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#45484d)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #000000 0%,#45484d 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #000000 0%,#45484d 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #000000 0%,#45484d 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #000000 0%,#45484d 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#45484d',GradientType=0 ); /* IE6-9 */
+    -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;
+}
+#comment {
+    width: 100%;
+    min-height: 6em;
+}
+#infinite-footer { display: none; }
+.btn-primary {
+    background: #666666; /* Old browsers */
+    background: -moz-linear-gradient(top,  #666666 0%, #573a1f 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#666666), color-stop(100%,#573a1f)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #666666 0%,#573a1f 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #666666 0%,#573a1f 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #666666 0%,#573a1f 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #666666 0%,#573a1f 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#573a1f',GradientType=0 ); /* IE6-9 */
+}
+.btn-default {
+    background: #573a1f; /* Old browsers */
+    background: -moz-linear-gradient(top,  #7f532d 0%, #573a1f 44%, #573a1f 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7f532d), color-stop(44%,#573a1f), color-stop(100%,#573a1f)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #7f532d 0%,#573a1f 44%,#573a1f 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #7f532d 0%,#573a1f 44%,#573a1f 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #7f532d 0%,#573a1f 44%,#573a1f 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #7f532d 0%,#573a1f 44%,#573a1f 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7f532d', endColorstr='#573a1f',GradientType=0 ); /* IE6-9 */
+} 
+.attachment-wpbs-featured {
+    display: none;
+}
+.tags a.label {background-color: #573a1f;}
